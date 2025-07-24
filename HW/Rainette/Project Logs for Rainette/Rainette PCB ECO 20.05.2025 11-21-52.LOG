@@ -1,0 +1,3 @@
+Added Pin To Net: NetName=GND Pin=U1-62
+Added Pin To Net: NetName=GND Pin=U1-77
+Added Member To Class: ClassName=Designator Member=Component D20 PESD3V3L1BSLZ

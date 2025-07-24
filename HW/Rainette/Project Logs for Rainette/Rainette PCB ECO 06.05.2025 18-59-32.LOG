@@ -1,0 +1,52 @@
+Change Component Comment : Designator=R1 Old Comment=CRCW0402100RFKEDC New Comment=100
+Change Component Comment : Designator=L1 Old Comment=LPS3015-222MLB New Comment=2.2uH
+Change Component Description : Designator=R1 Old Description=100 Ohms 0402 New Description=100 Ohms 0402
+CRCW0402100RFKEDC
+Change Component Description : Designator=R5 Old Description=120 Ohms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Thin Film New Description=120 Ohms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Thin Film
+RT0805BRD07120RL
+Change Component Description : Designator=L1 Old Description=Inductor New Description=Inductor
+LPS3015-222MLB
+Change Component Description : Designator=PS1 Old Description=Power Supply New Description=DC/DC Converter 
+7-36 V -> 5V
+Added Component: Designator=D29(SOD3717X135)
+Add component (AddParameter): Name = "Case/Package"; Value = "SOD-123"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "900mV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Impedance"; Value = "24"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "500mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Zener Voltage"; Value = "3.6V"; VariantName = "[No Variations]"
+Added Component: Designator=D30(SOD3717X135)
+Add component (AddParameter): Name = "Case/Package"; Value = "SOD-123"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "900mV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Impedance"; Value = "24"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "500mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Zener Voltage"; Value = "3.6V"; VariantName = "[No Variations]"
+Added Component: Designator=D31(SOD3717X135)
+Add component (AddParameter): Name = "Case/Package"; Value = "SOD-123"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "900mV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Impedance"; Value = "24"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "500mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Zener Voltage"; Value = "3.6V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC5_2 Pin=D29-1
+Added Pin To Net: NetName=GND Pin=D29-2
+Added Pin To Net: NetName=NetD8_2 Pin=D30-1
+Added Pin To Net: NetName=GND Pin=D30-2
+Added Pin To Net: NetName=NetD10_2 Pin=D31-1
+Added Pin To Net: NetName=GND Pin=D31-2
+Added Member To Class: ClassName=Designator Member=Component D29 MMSZ5227BT1G
+Added Member To Class: ClassName=Designator Member=Component D30 MMSZ5227BT1G
+Added Member To Class: ClassName=Designator Member=Component D31 MMSZ5227BT1G

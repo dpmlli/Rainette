@@ -1,0 +1,30 @@
+Change Component Footprint: Designator=R3 Old Footprint=RESC1608X04N New Footprint=RESC1005X04N
+Change Component Footprint: Designator=R4 Old Footprint=RESC1608X04N New Footprint=RESC3216X06N
+Change Component Comment : Designator=R3 Old Comment=100k 0.1% New Comment=22k 0.1%
+Change Component Comment : Designator=R4 Old Comment=100k 0.1% New Comment=82k
+Change Managed Component Library Link : Designator=R3 Old VaultGUID=15D7AA5B-49B6-47D8-A605-C856F967A40B New VaultGUID=15D7AA5B-49B6-47D8-A605-C856F967A40B Old ItemGUID=837CD863-30EA-4357-99D5-EAB51094D110 New ItemGUID=4A183C60-70E6-46F3-9EE7-608CD96E9142 Old RevisionGUID=5CD33D9D-751D-4CEB-83E8-B81CB86AD222 New RevisionGUID=97E4C0E6-C3A5-4B46-9C99-4AC38139CD4C
+Change Managed Component Library Link : Designator=R4 Old VaultGUID=15D7AA5B-49B6-47D8-A605-C856F967A40B New VaultGUID=15D7AA5B-49B6-47D8-A605-C856F967A40B Old ItemGUID=837CD863-30EA-4357-99D5-EAB51094D110 New ItemGUID=C73E309B-1FE7-409A-AD01-099E2CBA09A0 Old RevisionGUID=5CD33D9D-751D-4CEB-83E8-B81CB86AD222 New RevisionGUID=64678F24-8B15-4EAE-B007-CD3BC86DE870
+Change component parameters: Designator = "R3" ("R3"); Footprint = "RESC1608X04N"; UniqueID = "\AJFRCLTL\EBWTNRTX" ("\AJFRCLTL\EBWTNRTX")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "0402 (1005 Metric)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = "63mW"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistor Series"; Value = "E24"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Coefficient"; Value = "25ppm/°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "0.1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "22k"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R4" ("R4"); Footprint = "RESC1608X04N"; UniqueID = "\AJFRCLTL\ZDOQBVFR" ("\AJFRCLTL\ZDOQBVFR")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "1206 (3216 Metric)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = "250mW"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistor Series"; Value = "E24"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Coefficient"; Value = "100ppm/°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "82k"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "200V"; VariantName = "[No Variations]"

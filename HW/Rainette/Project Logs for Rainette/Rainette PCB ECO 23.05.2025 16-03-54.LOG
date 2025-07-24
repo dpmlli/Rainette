@@ -1,0 +1,11 @@
+Added Component: Designator=TP3(TPICTTH09N)
+Add component (AddParameter): Name = "Case/Package"; Value = "No Case"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Colour"; Value = "No Colour"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Not Applicable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NetName"; Value = "NetName"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=TP3-1
+Added Member To Class: ClassName=Designator Member=Component TP2 ICT Test Point - TH Round Pad
+Added Member To Class: ClassName=Designator Member=Component TP3 ICT Test Point - TH Round Pad

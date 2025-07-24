@@ -1,0 +1,25 @@
+Change Net Name : Old Net Name=T_JCLK/T_SWCLK New Net Name=T_JCLK/T_SWCLK_CONN
+Change Net Name : Old Net Name=T_JTDO/T_SWO New Net Name=T_JTDO/T_SWO_CONN
+Add Net: Net with name "GND" already exists
+Add Net: Net with name "GND" already exists
+Add Net: Net with name "GND" already exists
+Add Net: Net with name "GND" already exists
+Added Pin To Net: NetName=T_JCLK/T_SWCLK Pin=R12-1
+Added Pin To Net: NetName=T_JCLK/T_SWCLK Pin=U1-26
+Added Net: Name=T_JCLK/T_SWCLK
+Added Pin To Net: NetName=T_JTDI/NC_CONN Pin=J10-8
+Added Pin To Net: NetName=T_JTDI/NC_CONN Pin=R14-2
+Added Net: Name=T_JTDI/NC_CONN
+Added Pin To Net: NetName=T_JTDO/T_SWO Pin=R13-1
+Added Pin To Net: NetName=T_JTDO/T_SWO Pin=U1-21
+Added Net: Name=T_JTDO/T_SWO
+Added Pin To Net: NetName=T_JTMS/T_SWDIO_CONN Pin=J10-2
+Added Pin To Net: NetName=T_JTMS/T_SWDIO_CONN Pin=R11-2
+Added Net: Name=T_JTMS/T_SWDIO_CONN
+Added Pin To Net: NetName=T_NRST_CONN Pin=J10-10
+Added Pin To Net: NetName=T_NRST_CONN Pin=R15-2
+Added Net: Name=T_NRST_CONN
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator

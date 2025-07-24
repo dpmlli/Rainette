@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=GPIO_0 Pin=D15-2
+Removed Pin From Net: NetName=GPIO_1 Pin=D16-2
+Removed Pin From Net: NetName=GPIO_2 Pin=D17-2
+Removed Pin From Net: NetName=GPIO_3 Pin=D18-2
+Removed Pin From Net: NetName=GPIO_4 Pin=D19-2
+Added Pin To Net: NetName=GPIO_0 Pin=D15-1
+Added Pin To Net: NetName=GPIO_1 Pin=D16-1
+Added Pin To Net: NetName=GPIO_2 Pin=D17-1
+Added Pin To Net: NetName=GPIO_3 Pin=D18-1
+Added Pin To Net: NetName=GPIO_4 Pin=D19-1
+Add Net: Net with name "GND" already exists
+Add Net: Net with name "GND" already exists
+Add Net: Net with name "GND" already exists
+Add Net: Net with name "GND" already exists
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator

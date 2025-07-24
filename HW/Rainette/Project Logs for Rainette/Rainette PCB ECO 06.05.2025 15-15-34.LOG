@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=GPIO_FLOAT_IN Pin=U1-68
+Removed Pin From Net: NetName=NetIC6_3 Pin=U1-69
+Removed Pin From Net: NetName=GPIO_FLOAT_OUT Pin=U1-70
+Removed Pin From Net: NetName=NetIC8_3 Pin=U1-83
+Added Pin To Net: NetName=NetIC8_3 Pin=U1-43
+Added Pin To Net: NetName=NetIC6_3 Pin=U1-44
+Added Pin To Net: NetName=GPIO_FLOAT_IN Pin=U1-46
+Added Pin To Net: NetName=GPIO_FLOAT_OUT Pin=U1-47

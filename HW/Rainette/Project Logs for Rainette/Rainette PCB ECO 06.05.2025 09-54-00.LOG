@@ -1,0 +1,7 @@
+Change Net Name : Old Net Name=SCL New Net Name=I2C.SCL
+Change Net Name : Old Net Name=SDA New Net Name=I2C.SDA
+Change Class Name : Old Net Name=Analog_SensorsSchDoc New Net Name=Designator
+Change Class Name : Old Net Name=Digital_IO New Net Name=Designator
+Change Class Name : Old Net Name=PowerSupply New Net Name=Designator
+Change Class Name : Old Net Name=STM32 New Net Name=Designator
+Change Class Name : Old Net Name=UI_Bus New Net Name=Designator

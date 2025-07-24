@@ -1,0 +1,9 @@
+DRC Rules Export File for PCB: C:\Users\Damien\HESSO\TB Rainette - General\Projet Altium\Rainette\Rainette.PcbDoc
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing_IAR|Scope=Board|Minimum=4.92
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing_OAR|Scope=Board|Minimum=4.92
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing_uVia|Scope=Board|Minimum=3.54
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=0.00
+RuleKind=Width|RuleName=Width_ILTW|Scope=Board|Minimum=4.92
+RuleKind=Clearance|RuleName=Clearance_ILTTTPPP|Scope=Board|Minimum=4.92
+RuleKind=Clearance|RuleName=Clearance_OLTTTPPP|Scope=Board|Minimum=4.92

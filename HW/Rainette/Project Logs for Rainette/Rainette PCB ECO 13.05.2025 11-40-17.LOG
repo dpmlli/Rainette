@@ -1,0 +1,32 @@
+Removed Pin From Net: NetName=VUSB Pin=J2-1
+Removed Pin From Net: NetName=VBAT Pin=J2-3
+Removed Pin From Net: NetName=GPIO_FLOAT_IN Pin=U1-46
+Removed Pin From Net: NetName=GPIO_FLOAT_OUT Pin=U1-47
+Added Component: Designator=X2(CONN HEADER VERT 2POS 2.54MM)
+Add component (AddParameter): Name = "Contact Length"; Value = "11.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Shape"; Value = "Square"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "3A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fastening Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Features"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ingress Protection"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insulation Heigth"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Spacing"; Value = "0mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Shrouding"; Value = "Unshrouded"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "System"; Value = "Connector"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VBAT Pin=J2-1
+Added Pin To Net: NetName=VUSB Pin=J2-3
+Added Pin To Net: NetName=GPIO_FLOAT_OUT Pin=U1-28
+Added Pin To Net: NetName=GPIO_FLOAT_IN Pin=U1-29
+Added Pin To Net: NetName=T_VCC Pin=X2-1
+Added Pin To Net: NetName=GND Pin=X2-2
+Change Net Name : Old Net Name=T_VCC New Net Name=3V3
+Added Member To Class: ClassName=Designator Member=Component X2 CONN HEADER VERT 2POS 2.54MM
+Added Rule: Name=Schematic Supply Nets_4
