@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "cwd": "${workspaceRoot}",
+            "executable": "./BUILD/DISCO_WB5MMG/GCC_ARM-DEBUG/${workspaceFolderBasename}_application.elf",
+            "name": "STM32WB5MMG Debug with OpenOCD",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "openocd",
+            "configFiles": [
+                "board/st_nucleo_wb55.cfg"
+            ],
+            "searchDir": [
+                "${workspaceRoot}"
+            ],
+            "runToEntryPoint": "main",
+            "showDevDebugOutput": "none"
+        }
+    ]
+}

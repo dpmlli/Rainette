@@ -1,0 +1,104 @@
+{
+    "version": "2.0.0",
+    "command": "powershell",
+    "showOutput": "always",
+    "args": [
+        "-c"
+    ],
+    "tasks": [
+        {
+            "label": "===== General =====",
+            "command": ""
+        },
+        {
+            "label": "⚙️ Initialize Mbed OS project",
+            "command": "mbed",
+            "args": [
+                "new",
+                "."
+            ]
+        },
+        {
+            "label": "===== DISCO =====",
+            "command": ""
+        },
+        {
+            "label": "🔨 Build program (GCC release)",
+            "args": [
+                "mbed compile --profile=release -m DISCO -t GCC_ARM"
+            ]
+        },
+        {
+            "label": "🔨🐞 Build program (GCC debug)",
+            "args": [
+                "mbed compile --profile=debug -m DISCO -t GCC_ARM"
+            ]
+        },
+        {
+            "label": "🚀 Openocd flash (GCC release)",
+            "args": [
+                "openocd -f board/st_nucleo_wb55.cfg -c \"program BUILD/DISCO/GCC_ARM-RELEASE/${workspaceFolderBasename}.bin 0x08000000\" -c \"reset run\" -c \"shutdown\""
+            ]
+        },
+        {
+            "label": "🚀🐞 Openocd flash (GCC debug)",
+            "args": [
+                "openocd -f board/st_nucleo_wb55.cfg -c \"program BUILD/DISCO/GCC_ARM-DEBUG/${workspaceFolderBasename}.bin 0x08000000\" -c \"reset run\" -c \"shutdown\""
+
+            ]
+        },
+        {
+            "label": "⚙️ Show config DISCO",
+            "command": "mbed",
+            "args": [
+                "compile",
+                "-m",
+                "DISCO",
+                "-t",
+                "GCC_ARM",
+                "--config"
+            ]
+        },
+        {
+            "label": "===== RAINETTE =====",
+            "command": ""
+        },
+        {
+            "label": "🔨 Build program (GCC release)",
+            "args": [
+                "mbed compile --profile=release -m RAINETTE -t GCC_ARM"
+            ]
+        },
+        {
+            "label": "🔨🐞 Build program (GCC debug)",
+            "args": [
+                "mbed compile --profile=debug -m RAINETTE -t GCC_ARM"
+            ]
+        },
+        {
+            "label": "🚀 Openocd flash (GCC release)",
+            "args": [
+                "openocd -f board/st_nucleo_wb55.cfg -c \"program BUILD/RAINETTE/GCC_ARM-RELEASE/${workspaceFolderBasename}.bin 0x08000000\" -c \"reset run\" -c \"shutdown\""
+            ]
+        },
+        {
+            "label": "🚀🐞 Openocd flash (GCC debug)",
+            "args": [
+                "openocd -f board/st_nucleo_wb55.cfg -c \"program BUILD/RAINETTE/GCC_ARM-DEBUG/${workspaceFolderBasename}.bin 0x08000000\" -c \"reset run\" -c \"shutdown\""
+
+            ]
+        },
+        {
+            "label": "⚙️ Show config RAINETTE",
+            "command": "mbed",
+            "args": [
+                "compile",
+                "-m",
+                "RAINETTE",
+                "-t",
+                "GCC_ARM",
+                "--config"
+            ]
+        }
+    ]
+}

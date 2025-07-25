@@ -1,0 +1,23 @@
+{
+    "RAINETTE": {
+        "inherits": [
+            "MCU_STM32WB5MxG"
+        ],
+        "detect_code": [
+            "0884"
+        ],
+        "device_name": "STM32WB55VGYx"
+    },
+    "DISCO": {
+        "inherits": [
+            "MCU_STM32WB5MxG"
+        ],
+        "supported_form_factors": [
+            "ARDUINO_UNO"
+        ],
+        "detect_code": [
+            "0884"
+        ],
+        "device_name": "STM32WB55VGYx"
+    }
+}
